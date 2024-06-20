@@ -1,16 +1,16 @@
 <html>
     <body>
-        <style>
-            body {
-                color: white;
-            }
-        </style>
-        <div><div class="clicks">0</div><button onclick="click()">click</button></div>
         <script>
             function click() {
                 document.querySelector(".clicks").textContent = parseInt(document.querySelector(".clicks").textContent) + 1
                 console.log(document.querySelector(".clicks").textContent)
             }
         </script>
+        <style>
+            body {
+                color: white;
+            }
+        </style>
+        <div><div class="clicks">0</div><button onclick="click()">click</button></div>
         <script src="https://telegram.org/js/telegram-web-app.js?1"></script></body>
 </html>
